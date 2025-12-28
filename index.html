@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum of Array </title>
+</head>
+<style>
+    body{
+        background-color: azure;
+    }
+    h3{
+        text-align: center;
+        color:#1f1f1f;
+    }
+    #sum{
+        text-align: center;
+        color: black;
+    }
+</style>
+<body>
+    <h3 id="heading"></h3>
+
+  <script>
+
+    let numbers = [2,5,6,7,8];
+
+    
+    let sum = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      sum += numbers[i];
+    }
+     console.log(sum)
+
+   let heading = document.getElementById("heading").innerHTML ="Sum of elements of Array [" + numbers + '] is ' + sum
+  
+    
+
+</script>
+</body>
+</html>
